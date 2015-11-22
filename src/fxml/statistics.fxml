@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <Label alignment="CENTER" layoutX="89.0" layoutY="17.0" text="%noughts_and_crosses" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="80.0" />
+            <Label alignment="CENTER" layoutX="20.0" layoutY="17.0" text="menu" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="15.0" />
+            <Label alignment="CENTER" layoutX="250.0" layoutY="17.0" text="logo" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="15.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="350.0" prefWidth="300.0">
+         <children>
+            <AnchorPane prefHeight="120.0" prefWidth="300.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="136.0" layoutY="42.0" text="%statistics" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="50.0" />
+                  <Label alignment="CENTER" layoutX="13.0" layoutY="16.0" text="&lt;" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="15.0" />
+                  <Label layoutX="258.0" layoutY="69.0" text="&gt;" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="20.0" />
+                  <Label layoutX="29.0" layoutY="16.0" text="%backward" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="15.0" />
+                  <Label layoutX="243.0" layoutY="69.0" text="%reset" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="35.0" />
+                  <Line endX="100.0" layoutX="100.0" layoutY="38.0" startX="-100.0" AnchorPane.leftAnchor="1.0" AnchorPane.topAnchor="40.0" />
+                  <Line endX="100.0" layoutX="199.0" layoutY="65.0" startX="-100.0" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="1.0" />
+               </children>
+            </AnchorPane>
+            <ListView layoutX="50.0" layoutY="120.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="140.0" />
+         </children></AnchorPane>
+      <AnchorPane prefHeight="50.0" prefWidth="300.0" />
+   </children>
+</VBox>
